@@ -1,0 +1,467 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    scroll-behavior: smooth;
+}
+section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.theme-padding{
+    padding-left: 140px;
+    padding-right: 140px;
+}
+.section-title h1{
+    font-family: "Prata", serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0.1em;
+    color: #00617D;
+    margin-bottom: 30px;
+    
+}
+
+/* .section-title h1{
+    animation: fade-in-top 1s ease-in-out both;
+} */
+
+
+/* theme section inevery page css */
+/* navbar css */
+/* .header{
+    position: fixed !important;
+    top: 0 !important;
+} */
+
+.navbar{ 
+    position: absolute !important;
+    /* position: fixed !important; */
+    top: 0 !important;
+    cursor: pointer;
+    width: 100%;
+    justify-content: center;
+    background-color: transparent !important;
+    height: 100px;
+}
+
+
+.nav-items{
+    width: 80%;
+    justify-content: space-around;
+    display: flex;
+}
+.nav-logo{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.nav-logo img{
+    max-width: 120px;
+}
+.nav-list ul{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 50px;
+}
+.nav-list li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #3B3B3B;
+    font-weight: 400;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+.contact-btn button{
+    border: 1px solid black;
+    background-color: #F4EEE0;
+    width: 150px;
+    height: 40px;
+    padding: 10px 20px;
+}
+
+/* ---------------- BANER SECTION --------------------- */
+.baner-section{
+padding: 0;
+top: 0 !important;
+}
+
+
+.baner-image {
+    position: relative;
+}  
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.baner-title{
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+}
+
+.baner-title h1{ 
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 120px;
+    text-align: center;
+    color: #fff;
+}
+
+
+/* about section css */
+.about-section{
+    position: relative;
+}
+.about-bg-img img{
+    max-width: 200px;
+    max-height: 200px;
+}
+.about-bg-img{
+    position: absolute;
+    top: 30%;
+    left: 43%;
+    z-index: -1;
+}
+/* 
+@keyframes fadeInLeft {
+    0% {
+       opacity: 0;
+       transform: translateX(-20px);
+    }
+    100% {
+       opacity: 1;
+       transform: translateX(0);
+    }
+ }  */
+
+
+.about-contant{
+    /* animation: fadeInLeft ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards; */
+    margin-left: 100px;
+}
+
+.section-paragraph p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #8F8F8F;
+    margin-bottom: 60px;
+}
+.about-cols{
+    align-items: end;
+}
+
+.about-list{
+    align-items: end;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-title h1{
+    font-size: 20px;
+    font-weight: 400;
+    color: #1D8492;
+    margin-bottom: 20px;
+}
+.about-title h2{
+    font-size: 14px;
+    font-weight: 400;
+    color: #8F8F8F;
+    margin-bottom: 10px;
+}
+.about-btm button{
+padding: 8px 20px 8px 20px;
+border: 1px solid ;
+color: #1D8492;
+}
+
+/* LEGACY SECTION CSS */
+.legacy-image{
+position: relative;
+}
+
+.legacy-items{
+    position: absolute;
+    width: 500px;
+    top: 75px;
+    left: 8%;
+
+}
+
+
+
+
+/* .lagesy-img{
+    position: absolute;
+    bottom: 0;
+    right: 80%;
+    top: 30%;
+    left:10%;
+} */
+
+/* legacy-box css */
+.first-box{
+    display: flex;
+    gap: 120px;
+    margin-bottom: 80px;
+}
+
+.second-box{
+    display: flex;
+    gap: 120px;
+}
+
+.top-box{
+    display: block;
+    position: relative;
+    width: 120px;
+    height: 90px;
+    background-image: url('/images/rounded-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+
+.legacy-img{
+    display: flex;
+    gap: 10PX;
+}
+
+.legacy-img img{
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.legacy-text{
+    position: absolute;
+    right: -45px;
+    align-items: end !important;
+    justify-content: end;
+    display: block;
+    text-align: start;
+}
+
+.legacy-text-1{
+    position: absolute;
+    right: -130px;
+    align-items: end !important;
+    justify-content: end;
+    display: block;
+    text-align: start;
+}
+
+.legacy-text h2, .legacy-text-1 h2{
+    font-size: 18px;
+    font-weight: 600;
+}
+.legacy-text h3{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+.lagesy-bg-img {
+    position: absolute;
+    top: 75%;
+    left: 45%;
+    right: 0;
+    /* z-index: -1; */
+}
+/* legasy box css end */
+
+
+/* --------------------------------------------- */
+
+/* project section  */
+
+/* about section css */
+.about-section{
+    position: relative;
+}
+.about-bg-img img{
+    max-width: 200px;
+    max-height: 200px;
+}
+.about-bg-img{
+    position: absolute;
+    top: 30%;
+    left: 42%;
+    z-index: -1;
+}
+/* 
+@keyframes fadeInLeft {
+    0% {
+       opacity: 0;
+       transform: translateX(-20px);
+    }
+    100% {
+       opacity: 1;
+       transform: translateX(0);
+    }
+ }  */
+
+
+.project-contant{
+    /* animation: fadeInLeft ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards; */
+    margin-left: 100px;
+}
+
+
+.project-cols{
+    align-items: end;
+}
+
+.project-list{
+    align-items: end;
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-title h1{
+    font-size: 20px;
+    font-weight: 400;
+    color: #1D8492;
+    margin-bottom: 20px;
+}
+.project-title h2{
+    font-size: 14px;
+    font-weight: 400;
+    color: #8F8F8F;
+    margin-bottom: 10px;
+}
+.project-btm button{
+padding: 8px 20px 8px 20px;
+border: 1px solid ;
+color: #1D8492;
+}
+
+.mr-40{
+    margin-right: 40px;
+}
+
+.second-project{
+    position: relative;
+    padding-top: 0;
+    background-color: #F6F6F6;
+}
+
+.background-div::before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background-color: #F6F6F6;
+    width: 100%;
+    height: 200px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.project-bg-img{
+    position: absolute;
+    top: 9%;
+    right: -9%;
+}
+
+/* PROJECT SECTION END */
+/* ---------------------------------- */
+/* FOOTER SECTION CSS */
+
+.footer{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    position: relative;
+    background-color: #012530 !important;
+    color: #FFFFFF;
+    width: 100%;
+}
+
+.footer-logo img{
+    max-width: 180px;
+}
+
+.footer-logo{
+  
+    padding-top: 60px;
+    top: 0;
+    position: absolute;
+}
+
+.footer-title h1{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.footer-subtitle li{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    margin-bottom: 5px;
+    color: #8F8F8F;
+}
+
+
+.top-footer{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap
+}
+
+.last-footer{
+    text-align: center;
+    padding: 0 !important;
+    width: 100%;
+    background-color: #FFFFFF;
+    color: black;
+}
+
+
+.lasst-footer-text p{
+   font-family: Poppins;
+font-size: 12px;
+font-weight: 400;
+line-height: 18px;
+text-align: left;
+
+
+}
+
+.footer-detail{
+    margin-bottom: 20px;
+}

@@ -1,0 +1,306 @@
+*{
+    padding: 0 ;
+    margin: 0 ;
+}
+body{
+    scroll-behavior: smooth;
+}
+section{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.theme-padding{
+    padding-left: 140px;
+    padding-right: 140px;
+}
+div {
+    outline: 0px solid #036cdb !important;
+}
+/* theme section inevery page css */
+/* navbar css */
+
+
+.navbar{ 
+    position: absolute !important;
+    /* position: fixed !important; */
+    top: 0 !important;
+    cursor: pointer;
+    width: 100%;
+    justify-content: center;
+    background-color: transparent !important;
+    height: 100px;
+}
+
+.nav-items{
+    width: 80%;
+    justify-content: space-around;
+    display: flex;
+}
+.nav-logo{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.nav-logo img{
+    max-width: 120px;
+}
+.nav-list ul{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 50px;
+}
+.nav-list li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #3B3B3B;
+    font-weight: 400;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+.contact-btn button{
+    border: 1px solid black;
+    background-color: #F4EEE0;
+    width: 150px;
+    height: 40px;
+    padding: 10px, 20px;
+}
+
+
+
+/* ---------------- BANER SECTION --------------------- */
+.baner-section{
+padding: 0;
+top: 0 !important;
+
+}
+
+
+.baner-image {
+    position: relative;
+}   
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.baner-title{
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    position: absolute;
+    top: 65%;
+    left: 0;
+    right: 0;
+}
+
+.baner-title h1{ 
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 120px;
+    text-align: center;
+    color: #fff;
+}
+
+/* next section css */
+
+.theory-section{
+    width: 100%;
+    position: relative;
+}
+
+.about-text{
+    align-items: center;
+    justify-content: center;
+    margin-right: 40px;
+}
+.about-bg{
+    width: auto;
+    position: absolute;
+    top: 25%;
+    right: 0;
+    left: -8%;
+}
+.bridge-img {
+    padding-right: 0 !important;
+}
+/* 
+.about-cl{
+    padding-right: 0;
+} */
+
+.about-text p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #8F8F8F;
+    margin-bottom: 30px;
+}
+
+/* hero section css */
+
+/* .hero-img{
+    background-image: url('/images/Arrow-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+/* .hero-contant{
+    position: relative;
+    width: 700px;
+    height: 700px;
+    right: 0;
+
+} */
+.hero-img{
+    position: relative;
+}
+
+.hero-contant{
+    position: absolute;
+    top: 50%;
+    max-width: 750px;
+    right: 0;
+    transform: translateY(-50%);
+}
+.hero-title h1{
+    font-family: Prata;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 60px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.hero-subtitle h3{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #FFFFFF;    
+    margin-bottom: 20px;
+
+}
+
+.hero-paragraph p{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #757575;    
+   
+}
+
+
+
+
+
+
+
+/* desk section css */
+
+.padding-left{
+    padding-left: 0;
+}
+.desk-contant{
+    position: relative;
+   padding-left: 60px;
+}
+.desk-section{
+    position: relative;
+    padding-bottom: 0;
+}
+
+.hero-paragraph p{
+    margin-bottom: 30px;
+}
+
+
+.desk-bg-img{
+    position: absolute;
+    top: 42%;
+    left: 34.5%;
+    right: 0;
+    z-index: -1;
+}
+
+/* ---------------------------------- */
+/* FOOTER SECTION CSS */
+
+.footer{
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    position: relative;
+    background-color: #012530;
+    color: #FFFFFF;
+    width: 100%;
+}
+
+.footer-logo img{
+    max-width: 180px;
+}
+
+.footer-logo{
+  
+    padding-top: 60px;
+    top: 0;
+    position: absolute;
+}
+
+.footer-title h1{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.footer-subtitle li{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    margin-bottom: 5px;
+    color: #8F8F8F;
+}
+
+.top-footer{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap
+}
+
+.last-footer{
+    text-align: center;
+    padding: 0 !important;
+    width: 100%;
+    background-color: #FFFFFF;
+    color: black;
+}
+
+.footer-detail{
+    margin-bottom: 20px;
+}
+
+
+.aaa{
+    background-color: #036cdb;
+}
+

@@ -1,0 +1,298 @@
+@media screen and (max-width: 1799px) {}
+
+
+@media screen and (max-width: 1599px) {}
+
+@media screen and (max-width: 1408px){}
+
+@media screen and (max-width: 1216px) {
+}
+
+@media screen and (max-width: 1180px){
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    body{
+        scroll-behavior: smooth;
+    }
+    section{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .theme-padding{
+        padding-left: 120px;
+        padding-right: 120px;
+    }
+    div {
+        outline: 0px !important;
+    }
+    .baner-title h1 {
+        font-size: 48px;
+    }
+
+    .about-bg-img {
+        position: absolute;
+        top: 30%;
+        left: 40.5%;
+        z-index: -1;
+    }
+    .legacy-box {
+        position: relative;
+        width: 146px;
+        height: 94px;
+    }
+    .lagesy-bg-img {
+        position: absolute;
+        top: 67%;
+        left: 45%;
+        right: 0;
+    }
+    .project-bg-img {
+        position: absolute;
+        top: 9%;
+        right: -12%;
+    }
+    .top-footer {
+        margin-bottom: 5px;
+    }
+    .about-contant {
+        margin-left: 80px;
+    }
+    .project-contant {
+        margin-left: 40px !important;
+    }
+   
+
+}
+
+
+@media screen and (max-width: 1024px) {
+    .theme-padding {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .legacy-img img {
+        max-width: 38px;
+        max-height: 38px;
+    }
+    .legacy-box {
+        position: relative;
+        width: 116px;
+        height: 68px;
+    }
+    .top-box {
+        display: block;
+        position: relative;
+        width: 70px;
+        height: 71px;
+        background-image: url(/images/rounded-bg.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .legacy-text {
+        right: -9px;
+    }
+
+    .legacy-text-1 {
+        right: -70px;
+    }
+    .legacy-text-1 h3{
+        font-size: 12px;
+    }
+    .legacy-text h3 {
+        font-size: 12px;
+    }
+
+
+    .first-box {
+        display: flex;
+        gap: 99px;
+        margin-bottom: 42px;
+    }
+    .second-box {
+        display: flex;
+        gap: 99px;
+    }
+    .about-bg-img {
+        position: absolute;
+        top: 33%;
+        left: 39%;
+        z-index: -1;
+    }
+    .project-contant {
+        margin-left: 80px !important;
+    }
+    .project-btm button {
+        width: 100px;
+        padding: 7px 10px 8px 10px;
+        border: 1px solid;
+        color: #1D8492;
+    }
+    .section-paragraph p {
+        margin-bottom: 30px !important;
+    }
+    .about-title h1 {
+        margin-bottom: 10px;
+    }
+    .about-title h2 {
+        margin-bottom: 5px;
+    }
+    .section-title h1 {
+        margin-bottom: 20px;
+    }
+    .footer-logo img {
+        max-width: 150px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 991px) {
+    section{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .theme-padding {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    .project-contant {
+        margin-left: 50px !important;
+    }
+    .section-paragraph p {
+        margin-bottom: 20px !important;
+    }
+    .lagesy-bg-img {
+        top: 60%;
+    }
+
+    .project-bg-img {
+        right: -13.5%;
+    }
+    .about-bg-img {
+        left: 38.5%;
+    }
+    .last-footer{
+        display: flex;
+        justify-content: center;
+    }
+    
+}
+
+
+@media screen and (max-width: 880px){
+    section{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .theme-padding {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    .baner-title h1 {
+        font-size: 38px;
+    }
+    .about-bg-img {
+        position: absolute;
+        top: 40%;
+        left: 37.5%;
+        
+    }
+    .legacy-flex {
+        display: block;
+        justify-content: space-between;
+        gap: 120px;
+    }
+    .section-paragraph p {
+        margin-bottom: 40px !important;
+    }
+    .lagesy-bg-img {
+        top: 54%;
+    }
+    .project-bg-img {
+        right: -15.5%;
+        top: -7px;
+    }
+    .project-btm button {
+        width: 82px;
+        padding: 4px 6px;
+       
+    }
+    .section-title h1 {
+        margin-bottom: 0px;
+    }
+    .about-btm button {
+        padding: 4px 10px;
+    }
+    .about-title h2 {
+        font-size: 12px;
+    }
+    .section-paragraph p {
+        font-size: 12px;
+    }
+}
+
+
+
+@media screen and (max-width: 768px){
+    .theme-padding {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    .section-title{
+        margin-bottom: 10px;
+    }
+    .about-contant {
+        margin-left: 0;
+    }
+    .baner-title h1 {
+        font-size: 34px;
+        /* line-height: 55px; */
+    }
+    .lagesy-bg-img {
+        top: 49%;
+        z-index: -1;
+    }
+    .mr-40{
+        margin: 0;
+    }
+    .footer-logo img{
+       display: none;
+    }
+    .project-contant {
+        margin-left: 0px !important;
+    }
+    .lagesy-bg-img {
+        top: 44%;
+        z-index: -1;
+    }
+    .project-bg-img {
+        right: -17.5%;
+        top: 157px;
+    }
+    .background-div::before{
+        width: 100%;
+        height: 250px;
+     
+    }
+}
+
+
+
+@media screen and (max-width: 575px) {}
+
+
+@media screen and (max-width: 480px) {}
+
+
+@media screen and (max-width: 420px) {}
+
+
+@media screen and (max-width: 380px) {}
+
+@media screen and (max-width: 360px) {
+
+}
